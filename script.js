@@ -25,7 +25,7 @@ const searchInput = document.getElementById('search-input');
 searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value;
   if (searchTerm) {
-    window.location.href = `https://search.sparksammy.com/search.php?q=${searchTerm}&p=0&t=0`;
+    window.location.href = `https://search.brave.com/search?q=${searchTerm}`;
   } else {
     alert('Please enter a search term.');
   }
